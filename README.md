@@ -9,7 +9,7 @@ To complete the test task, I have decided to use StreamLabs existing project (ho
 4. Created native module
 
 ## Note:
-**I understand that it may seem a bit like a cheat, to use existing implementation. But as long as test task is intended to demonstrate ability to learn new technologies quickly, I think it is step forward. Anyway, now I have the idea of StreamLabs project architecture and workflow** :))
+**I understand that it may seem a bit like a cheat, to use existing implementation. I am sure, without solid understanding of what is going on in the code, it would not be possible to run it. As long as test task is intended to demonstrate ability to learn new technologies quickly, I think it is step forward. Anyway, now I have the idea of StreamLabs project architecture and workflow** :))
 
 ## Steps to build and run:
 1. Enter root catalog of test task
