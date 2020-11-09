@@ -19,4 +19,7 @@ To complete the test task, I have decided to use StreamLabs existing project (ho
 5. Copy ./third_party/lib/obs/* into ./bin/Release/
 6. Copy ./third_party/lib/obs_deps/* into ./bin/Release/
 7. Copy ./third_party/modules/* into ./bin/Release/
-8. npm start
+8. In one command line: ./obs_server_64bits.exe mysock
+8. In another command line: npm start
+
+Note: Stream URL and Stream Key are stored in consts.h file in obs_server.
