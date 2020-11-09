@@ -1,0 +1,18 @@
+cmake_minimum_required(VERSION 3.5)
+project(test.task LANGUAGES CXX)
+
+option(CMAKE_INCLUDE_CURRENT_DIR "" OFF)
+option(CMAKE_CXX_STANDARD_REQUIRED "" OFF)
+
+set(CMAKE_CXX_STANDARD 14)
+
+#if(MSVC)
+#    set(ENV{VCINSTALLDIR} "${CMAKE_GENERATOR_INSTANCE}/VC/")
+#    set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} /W4 /WX")
+#elseif(CMAKE_COMPILER_IS_GNUCC OR CMAKE_COMPILER_IS_GNUCXX)
+#    set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wall")
+#endif()
+
+set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} "${CMAKE_SOURCE_DIR}/scripts/cmake")
+
+add_subdirectory(src)

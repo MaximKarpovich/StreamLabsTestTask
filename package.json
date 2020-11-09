@@ -1,0 +1,22 @@
+{
+  "name": "my_test",
+  "version": "1.0.0",
+  "description": "Example of Electron and native module app",
+  "keywords": [
+    "addon",
+    "native",
+    "module"
+  ],
+  "author": "Node.js Foundation",
+  "license": "ISC",
+  "main": "./main.js",
+  "dependencies": {
+    "bindings": "~1.2.1",
+    "node-addon-api": "^3.0.0",
+    "electron": "^10.1.5"
+  },
+  "scripts": {
+    "install": "cmake-js install",
+    "start": "electron ."
+  }
+}
