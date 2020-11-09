@@ -2,7 +2,7 @@
 
 Hi 
 
-To complete the test task, I`ve decided to use StreamLabs existing project (hope you`re not agains it :D ). Steps that I`ve made during implementation:
+To complete the test task, I have decided to use StreamLabs existing project (hope you arre not agains it :D ). Steps that I have made during implementation:
 1. Downloaded OBS and compiled it for x64. Had some issues with specific path for searching modules (I mean hardcoded ../../obs-plugins), so changed it to (./obs-plugins).
 2. Downloaded StreamLabs obs-studio-node project
 3. Removed some code that is not neccessary for this test task and compiled.
