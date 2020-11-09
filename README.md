@@ -22,4 +22,5 @@ To complete the test task, I have decided to use StreamLabs existing project (ho
 8. In one command line enter ./bin/Release and run: ./obs_server_64bits.exe mysock
 8. In another command line enter root catalog and run: npm start
 
-Note: Stream URL and Stream Key are stored in consts.h file in obs_server.
+## Note: 
+1.Stream URL and Stream Key are stored in consts.h file in obs_server.
