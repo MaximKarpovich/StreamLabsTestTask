@@ -25,13 +25,6 @@ set(LIBOBS_LIB_LIST
 	${LIBOBS_DEPS_LIB_DIR}/swresample.lib 
 	${LIBOBS_DEPS_LIB_DIR}/avcodec.lib)
 
-#include_directories(${LIBOBS_INCLUDE_DIR})
-#link_directories(${LIBOBS_DEPS_LIB_DIR} ${LIBOBS_LIB_DIR})
-
-#set(SOURCE ${PROJECT_SOURCE_DIR}/main.cpp)
-#add_executable(${PROJECT_NAME} ${SOURCE})
-#target_link_libraries(${PROJECT_NAME} ${LIBOBS_LIB_LIST})
-
 add_subdirectory(ipc)
 add_subdirectory(obs_server)
 add_subdirectory(obs_client)
